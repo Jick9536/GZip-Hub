@@ -1,0 +1,11 @@
+Hola acabas de abrir el READ_ME de la práctica final de mp2 del año 2009/2010.
+Para compilarlo todo solo tiene que desplazarte a la carpeta principal GZIP y ejecutar el makefile que viene incluido (orden make). 
+
+El makefile construira:
+
+1.test_1_tablas: main que comprueba si se almacena correctamente las tablas.
+2.test_2_lz: main que comprueba el algoritmo LZ77 sacando ademas sus bits adicionales(si los tiene) por la salida estandar. Los datos entran por entrada estandar (>ejemplo.txt)
+3.test_3_huffman: main que monta el algoritmo deflate y lo muestra por salida estandar.  Los datos entran por entrada estandar (>ejemplo.txt)
+4.test_4_flujo: main que calcula el algoritmo deflate usando un flujo de entrada. La salida sigue siguendo por la estandar (cout)
+5.test_5_flujos: main que realiza el algoritmo deflate pero esta vez con un flujo de entrada y otro de salida. (bin/test_5_flujos data/ejemplos/quijote.txt)
+6.mp2gzip: Compresor completo.

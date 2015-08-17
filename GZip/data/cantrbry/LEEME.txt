@@ -1,0 +1,6 @@
+En este directorio se incluyen dos carpetas con ficheros de prueba para que compruebe el correcto funcionamiento de su aplicación.
+
+- En la carpeta cantrbry se encuentra el corpus de Canterbury. Un conjunto de ficheros seleccionado para comparar el funcionamiento de distintos algoritmos de compresión.
+- En la carpeta imagenes puede encontrar tres imágenes de distintos tamaños.
+
+La aplicación que desarrolle debería ser capaz de comprimir correctamente estos ficheros en un tiempo razonable (uno o varios minutos)

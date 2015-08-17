@@ -1,0 +1,32 @@
+En este directorio se incluyen algunos archivos de prueba para ayudar a testear su aplicación.
+
+############################################################################
+- "prueba1.txt", "prueba2.txt", "prueba3.txt" y "xargs.1_LZ": Son los ficheros de texto originales.
+
+Por ejemplo prueba1.txt contiene:
+		Hay una vaca. La vaca es blanca y gris. La vaca es grande.
+
+############################################################################
+- "prueba1_LZ.txt", "prueba2_LZ.txt", "prueba3_LZ.txt" y "xargs.1_LZ": Almacenan las salidas obtenidas después
+de procesarlas con el algoritmo LZ77.
+
+Se sigue el formato indicado en el guión de prácticas, con cada símbolo de distancia o longitud acompañado de su campo de bits. Al final del fichero se indica el símbolo de final de fichero.
+
+Así prueba1_LZ.txt contiene:
+Hay una vaca. L#REF(260,6 00)# es blan#REF(257,6 01)#y gris#REF(266 0,9 001)#grande.
+#REF Final fichero: 256
+
+############################################################################
+- "prueba1_Huffman.txt", "prueba2_Huffman.txt", "prueba3_Huffman.txt" y "xargs.1_Huffman": Almacenan las salidas obtenidas después de pasarlas a codificación Huffman.
+
+Los códigos Huffman se indican uno por línea, en su sentido habitual y se acompañan por los campos de bits extra si existen.
+Un trozo de prueba1_Huffman.txt contiene:
+
+10011001  
+10100011  
+0001010  0
+01001  001
+
+############################################################################
+- "prueba1.txt.gz", "prueba2.txt.gz", "prueba3.txt.gz" y "xargs.1_LZ.gz": Son los ficheros de texto comprimidos.
+
